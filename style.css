@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Roboto:ital,wght@0,100;1,300&family=Zen+Kaku+Gothic+Antique&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+font-family: 'Poppins',sans-serif;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 30px auto;
+}
+.firstnav{
+ 
+  
+  
+}
+.firstnav h2{
+  font-weight: 900;
+  font-size: 23px;
+  margin-top: -5px;
+ 
+
+}
+.secondnav{
+  margin-right: 200px;
+}
+.secondnav a{
+  color: black;
+  text-decoration: none;
+  font-weight: 100;
+  margin-right: 10px;
+  padding: 13px 25px;
+  transition: 0.4s ease;
+}
+.secondnav a:hover{
+  background: #0AC05E;
+  padding: 13px 25px;
+  color: white;
+
+  text-decoration: none;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+  
+  transition: 0.4s ease;
+}
+.thirdnav :nth-child(1){
+  color: black;
+  text-decoration: none;
+  font-weight: 100;
+}
+.thirdnav :nth-child(2){
+  background: #0AC05E;
+  padding: 13px 25px;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0px 3px 10px rgb(0 0 0 / 0.6);
+  margin-left: 20px;
+
+}
